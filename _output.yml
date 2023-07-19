@@ -4,7 +4,6 @@ bookdown::gitbook:
     before_body: assets/C-MOOR_Template/big-image-c-moor.html
     after_body: assets/C-MOOR_Template/footer.html
   highlight: tango
-  split_by: section
   config:
     toc:
       collapse: section
