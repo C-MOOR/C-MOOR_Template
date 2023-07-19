@@ -3,27 +3,32 @@
 
 group:
   - files:
-      - source: .github/workflows/
-        dest: .github/workflows/
-        deleteOrphaned: true
-        exclude: |
-          send-updates.yml
-          test-send-updates.yml
-          starting-course.yml
-          release-notes.yml
-          docker-test.yml
-          docker-build.yml
-      - source: scripts/
-        dest: scripts/
-        deleteOrphaned: true
-      - source: .github/ISSUE_TEMPLATE/course-problem-report.md
-        dest: .github/ISSUE_TEMPLATE/course-problem-report.md
-      - source: .github/ISSUE_TEMPLATE/course-content-add.md
-        dest: .github/ISSUE_TEMPLATE/course-content-add.md
-      - source: style-sets
-        dest: style-sets
+      # - source: .github/workflows/
+      #   dest: .github/workflows/
+      #   deleteOrphaned: true
+      #   exclude: |
+      #     send-updates.yml
+      #     test-send-updates.yml
+      #     starting-course.yml
+      #     release-notes.yml
+      #     docker-test.yml
+      #     docker-build.yml
+      # - source: scripts/
+      #   dest: scripts/
+      #   deleteOrphaned: true
+      # - source: .github/ISSUE_TEMPLATE/course-problem-report.md
+      #   dest: .github/ISSUE_TEMPLATE/course-problem-report.md
+      # - source: .github/ISSUE_TEMPLATE/course-content-add.md
+      #   dest: .github/ISSUE_TEMPLATE/course-content-add.md
+      # OTTR style files
+      - source: assets/style.css
+        dest: assets/style.css
       - source: assets/box_images/
         dest: assets/box_images/
+      # C-MOOR style files
+      - source: assets/C-MOOR/Template/
+        dest: assets/C-MOOR/Template/
+        deleteOrphaned: true
   # Repositories to receive changes
     repos: |
-
+      C-MOOR/module-model-org-db
