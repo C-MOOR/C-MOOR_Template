@@ -3,9 +3,15 @@
 
 group:
   - files:
-      # - source: .github/workflows/
-      #   dest: .github/workflows/
-      #   deleteOrphaned: true
+      # OTTR workflows
+      - source: .github/workflows/delete-preview.yml
+        dest: .github/workflows/delete-preview.yml
+      - source: .github/workflows/pull_request.yml
+        dest: .github/workflows/pull_request.yml
+      - source: .github/workflows/render-all.yml
+        dest: .github/workflows/render-all.yml
+      - source: .github/workflows/transfer-rendered-files.yml
+        dest: .github/workflows/transfer-rendered-files.yml
       #   exclude: |
       #     send-updates.yml
       #     test-send-updates.yml
@@ -20,12 +26,12 @@ group:
       #   dest: .github/ISSUE_TEMPLATE/course-problem-report.md
       # - source: .github/ISSUE_TEMPLATE/course-content-add.md
       #   dest: .github/ISSUE_TEMPLATE/course-content-add.md
-      # OTTR style files
+      # OTTR style
       - source: assets/style.css
         dest: assets/style.css
       - source: assets/box_images/
         dest: assets/box_images/
-      # C-MOOR style files
+      # C-MOOR style
       - source: _output.yml
         dest: _output.yml
       - source: assets/C-MOOR_Template/
