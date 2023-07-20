@@ -26,6 +26,8 @@ group:
       - source: assets/box_images/
         dest: assets/box_images/
       # C-MOOR style files
+      - source: _output.yml
+        dest: _output.yml
       - source: assets/C-MOOR_Template/
         dest: assets/C-MOOR_Template/
         deleteOrphaned: true
