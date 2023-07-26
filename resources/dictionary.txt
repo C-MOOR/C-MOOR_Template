@@ -1,3 +1,5 @@
+AAAS
+Bioinformatics
 C-MOOR
 bookdown
 Coursera
@@ -5,6 +7,7 @@ css
 LaTeX
 Leanpub
 markdown
+NIBLSE
 pandoc
 reproducibility
 rmarkdown
