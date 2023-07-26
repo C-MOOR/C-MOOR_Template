@@ -1,4 +1,4 @@
-available-course-formats
+fig:unnamed-chunk-1
 introduction
 motivation
 target-audience
