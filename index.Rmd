@@ -67,14 +67,17 @@ Lesson Length should be one of the following (from CourseSource):
 - One year
 - Other
 
-You can then provide additional details; e.g.
+You can then provide additional details
 
+Example:
+
+- **Class Type:** Lab (computer based)
 - **Lesson Length:** One class period (2-3 hr lab)
     - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
     - 2 hr core lab exercises
     - Optional 20 min "challenge" exercise
-
--->
+    
+Another example:
 
 - **Class Type:** Lab (computer based)
 - **Lesson Length:** One class period (2-3 hr lab)
@@ -84,6 +87,11 @@ You can then provide additional details; e.g.
       - 45 min exercises covering...
       - 45 min project investigating...
     - (flexible) write-up and/or present findings
+
+-->
+
+- **Class Type:**
+- **Lesson Length:**
 
 ### Learning Goals {-}
 
@@ -170,6 +178,16 @@ Core concepts and competencies are taken from the following sources:
   - [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
+
+### C-MOOR Content Collection
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "about_c-moor.Rmd",
+  branch = "cmoor-blurb",
+  repo_name = "C-MOOR/C-MOOR_Template"
+)
+```
 
 
 <!-- ## Available course formats
