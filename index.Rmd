@@ -19,7 +19,7 @@ What is the essence/purpose of this course or module (2-3 sentences).
 
 ```{r, echo=FALSE, fig.alt="C-MOOR logo", fig.cap="C-MOOR logo"}
 # replace this with an image that represents the course/module
-knitr::include_graphics(c("assets/C-MOOR_Template/c-moor-logo-horizonal.png"))
+knitr::include_graphics(c("assets/C-MOOR_Template/c-moor-logo-horizontal.png"))
 ```
 
 ### Audience and Prerequisites {-}
