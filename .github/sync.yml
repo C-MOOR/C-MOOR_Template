@@ -31,6 +31,9 @@ group:
         dest: assets/style.css
       - source: assets/box_images/
         dest: assets/box_images/
+      # C-MOOR content
+      - source: about_c-moor.Rmd
+        dest: about_c-moor.Rmd
       # C-MOOR style
       - source: _output.yml
         dest: _output.yml
