@@ -12,9 +12,13 @@ group:
         dest: .github/workflows/render-all.yml
       - source: .github/workflows/transfer-rendered-files.yml
         dest: .github/workflows/transfer-rendered-files.yml
-      # - source: scripts/
-      #   dest: scripts/
-      #   deleteOrphaned: true
+      # OTTR scripts
+      - source: scripts/git_repo_check.R
+        dest: scripts/git_repo_check.R
+      - source: scripts/make_screenshots.R
+        dest: scripts/make_screenshots.R
+      - source: scripts/ottr-fy.R
+        dest: scripts/ottr-fy.R
       # - source: .github/ISSUE_TEMPLATE/course-problem-report.md
       #   dest: .github/ISSUE_TEMPLATE/course-problem-report.md
       # - source: .github/ISSUE_TEMPLATE/course-content-add.md
