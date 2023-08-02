@@ -12,13 +12,6 @@ group:
         dest: .github/workflows/render-all.yml
       - source: .github/workflows/transfer-rendered-files.yml
         dest: .github/workflows/transfer-rendered-files.yml
-      #   exclude: |
-      #     send-updates.yml
-      #     test-send-updates.yml
-      #     starting-course.yml
-      #     release-notes.yml
-      #     docker-test.yml
-      #     docker-build.yml
       # - source: scripts/
       #   dest: scripts/
       #   deleteOrphaned: true
