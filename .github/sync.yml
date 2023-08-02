@@ -28,6 +28,8 @@ group:
         dest: assets/style.css
       - source: assets/box_images/
         dest: assets/box_images/
+      - source: assets/toc_close.css
+        dest: assets/toc_close.css
       # C-MOOR content
       - source: about_c-moor.Rmd
         dest: about_c-moor.Rmd
