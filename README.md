@@ -1,14 +1,23 @@
+## About
+
 C-MOOR_Template is a C-MOOR-customized version of [OTTR_Template](https://github.com/jhudsl/OTTR_Template).
+
+- Adds C-MOOR-specific styling and assets (logo, colors, etc.)
+- Adds C-MOOR-specific starting content (e.g. `index.Rmd`)
+
+## Content made using this template:
+
+- C-MOOR Module: Model Organisms and Biological Databases \[[source](https://github.com/C-MOOR/module-model-org-db)\]\[[render](https://www.c-moor.org/module-model-org-db/)\]
 
 ## Using C-MOOR_Template
 
-Instructions for using C-MOOR_Template can be found in the [wiki](https://github.com/C-MOOR/C-MOOR_Template/wiki)
+Instructions for using C-MOOR_Template can be found in the [wiki](https://github.com/C-MOOR/C-MOOR_Template/wiki).
 
 ## About OTTR (Open-source Tools for Training Resources)
 
-Go to [ottrproject.org](https://www.ottrproject.org/) to get started! :tada:
+C-MOOR_Template is based on OTTR.  The purpose of OTTR is to make course publishing maintenance across multiple different platforms _less painful_.
 
-The purpose of OTTR is to make course publishing maintenance across multiple different platforms _less painful_.
+Go to [ottrproject.org](https://www.ottrproject.org/) to learn more! :tada:
 
 _OTTR helps you_:   
 
@@ -23,16 +32,6 @@ _OTTR helps you_:
 [See the OTTR pre-print here!](https://arxiv.org/abs/2203.07083)
 
 <img src="https://docs.google.com/presentation/d/18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU/export/png?id=18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU&pageid=gf4fcf6569c_2_29" width="500"/>
-
-## Courses that have been made using this template:
-
-- C-MOOR Module: Model Organisms and Biological Databases \[[source](https://github.com/C-MOOR/module-model-org-db)\]\[[render](https://www.c-moor.org/module-model-org-db/)\]
-
-## To Get Started
-- Go to the [ottrproject.org](https://www.ottrproject.org/).
-- Check out the [rendered version of the template](https://jhudatascience.org/OTTR_Template/).
-- Please take a look at the [code of conduct](./code_of_conduct.md).
-- If you encounter any problems or have ideas for improvements to this template repository or this getting started guide, please [file an issue here](https://github.com/jhudsl/OTTR_Template/issues/new/choose)! Your feedback is very much appreciated.
 
 ## Encountering problems?
 
