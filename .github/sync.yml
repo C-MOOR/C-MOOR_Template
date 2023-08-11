@@ -41,4 +41,5 @@ group:
         deleteOrphaned: true
   # Repositories to receive changes
     repos: |
+      C-MOOR/C-MOOR_Template_Test
       C-MOOR/module-model-org-db
