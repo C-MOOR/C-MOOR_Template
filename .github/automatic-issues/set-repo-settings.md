@@ -4,7 +4,7 @@ For more information on these settings see instructions in [Starting a new OTTR 
 - [ ] This course repository is set to `public`.
 - [ ] [Add the `jhudsl-robot` as a collaborator to your repository.](https://www.ottrproject.org/getting_started.html#5_Add_jhudsl-robot_as_a_collaborator).
 
-- [ ] [Github secret `GH_PAT` has been set](https://www.ottrproject.org/getting_started.html#6_Set_up_your_GitHub_personal_access_token)
+- [ ] If your repository does not belong to the C-MOOR organization, [set the Github secret `GH_PAT`](https://www.ottrproject.org/getting_started.html#6_Set_up_your_GitHub_personal_access_token)
   `Name`:  `GH_PAT`
   `value`: A personal access token [following these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token).
   Underneath `Select scopes`, check both `repo` and `workflow`.
