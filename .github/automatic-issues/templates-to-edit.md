@@ -7,6 +7,7 @@ The following files need to be edited to get this new course started!
 
 - [ ] `README.md` - Fill in all the `{ }`.
 - [ ] `index.Rmd` - `title:` should be updated.
+- [ ] `index.Rmd` - `description:` should be updated (this is what is displayed when you share a link to the book/course)
 - [ ] `01-intro.Rmd` - replace the information there with information pertinent to this new course.
 - [ ] `02-chapter_of_course.Rmd` - This Rmd has examples of how to set things up, if you don't need it as a reference, it can be deleted.
 
