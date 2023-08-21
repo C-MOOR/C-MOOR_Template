@@ -11,6 +11,12 @@ The following files need to be edited to get this new course started!
 - [ ] `01-intro.Rmd` - replace the information there with information pertinent to this new course.
 - [ ] `02-chapter_of_course.Rmd` - This Rmd has examples of how to set things up, if you don't need it as a reference, it can be deleted.
 
+### License:
+Your new repository will be set up with a CC-BY 4.0 License.  If you wish to use a different license and/or to include material that is distributed under a different license, you should:
+
+- [ ] Update `LICENSE.md`
+- [ ] Update `footer.html`
+
 ### Files that need to be edited upon adding each new chapter (including upon creating a new course):
 
 - [ ] `_bookdown.yml` - The list of Rmd files that need to be rendered needs to be updated. See [instructions](https://www.ottrproject.org/examples.html#publishing-with-bookdown).
