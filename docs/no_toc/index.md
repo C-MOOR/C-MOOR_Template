@@ -1,6 +1,6 @@
 ---
 title: "Course Name"
-date: "July 26, 2023"
+date: "August 22, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -9,6 +9,10 @@ link-citations: yes
 description: "Description about Course/Book."
 favicon: assets/dasl_favicon.ico
 output:
+    bookdown::gitbook:
+      config:
+        edit: https://github.com/C-MOOR/C-MOOR_Template/edit/main/%s
+      split_by: section
     bookdown::word_document2:
       toc: true
 ---
