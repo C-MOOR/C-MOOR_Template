@@ -242,6 +242,14 @@ reflection text
 
 </div>
 
+Here is a `<div class = "wip">` box:
+
+<div class = "wip">
+
+This section is a **Work in Progress**.
+
+</div>
+
 
 ## Dropdown summaries
 
