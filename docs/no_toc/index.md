@@ -1,6 +1,6 @@
 ---
 title: "Course Name"
-date: "November 22, 2023"
+date: "December 08, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -26,7 +26,7 @@ What is the essence/purpose of this course or module (2-3 sentences).
 <p class="caption">(\#fig:unnamed-chunk-1)C-MOOR logo</p>
 </div>
 
-### Audience and Prerequisites {-}
+### Audience and Prerequisites {- .unlisted}
 
 What is the target audience?
 
@@ -50,7 +50,7 @@ The project portion of the module involves looking up genes in different databas
 -->
 
 
-### Format {-}
+### Format {- .unlisted}
 
 <!--
 Class Type should be one of the following (from CourseSource):
@@ -103,7 +103,7 @@ Another example:
 1. Goal 2
 1. Goal 3
 
-### Core Competencies {-}
+### Core Competencies {- .unlisted}
 
 This activity addresses the following core concepts and competencies:
 
@@ -131,7 +131,7 @@ Core concepts and competencies are taken from the following sources:
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 
 
-### C-MOOR Content Collection {-}
+### C-MOOR Content Collection {- .unlisted}
 
 
 This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
