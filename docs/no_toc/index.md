@@ -1,6 +1,6 @@
 ---
 title: "Course Name"
-date: "December 08, 2023"
+date: "February 27, 2024"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
