@@ -7,26 +7,20 @@ The following files need to be edited to get this new course started!
 
 - [ ] `README.md` - Fill in all the `{ }`.
 - [ ] `index.Rmd` - `title:` should be updated.
+- [ ] `index.Rmd` - `description:` should be updated (this is what is displayed when you share a link to the book/course)
 - [ ] `01-intro.Rmd` - replace the information there with information pertinent to this new course.
 - [ ] `02-chapter_of_course.Rmd` - This Rmd has examples of how to set things up, if you don't need it as a reference, it can be deleted.
+
+### License:
+Your new repository will be set up with a CC-BY 4.0 License.  If you wish to use a different license and/or to include material that is distributed under a different license, you should:
+
+- [ ] Update `LICENSE.md`
+- [ ] Update `footer.html`
 
 ### Files that need to be edited upon adding each new chapter (including upon creating a new course):
 
 - [ ] `_bookdown.yml` - The list of Rmd files that need to be rendered needs to be updated. See [instructions](https://www.ottrproject.org/course_publishing.html#publishing-with-bookdown).
 - [ ] `book.bib` - any citations need to be added. See [instructions](https://www.ottrproject.org/more_features.html#citing-sources).
-
-### Picking a style
-
-See more [about customizing style on this page in the guide](https://www.ottrproject.org/customize-style.html).
-By default this course template will use the jhudsl data science lab style. However, you can customize and switch this to another style set.
-
-#### Using a style set
-
-[Read more about the style sets here](https://www.ottrproject.org/customize-style.html#Using_a_style_set).
-
-- [ ] On a new branch, copy the `style-sets/<set-name>/index.Rmd` and `style-sets/<set-name>/_output.yml` to the top of the repository to overwrite the default `index.Rmd` and `_output.yml`.
-- [ ] Copy over all the files in the `style-sets/<set-name>/copy-to-assets` to the `assets` folder in the top of the repository.
-- [ ] [Create a pull request](https://www.ottrproject.org/writing_content_courses.html#Open_a_pull_request) with these changes, and double check the rendered preview to make sure that the style is what you are looking for.
 
 ### Files that need to be edited upon adding new packages that the book's code uses:
 
