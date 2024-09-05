@@ -13,7 +13,7 @@ jobs:
   template-cleanup:
     name: Template Cleanup
     runs-on: ubuntu-latest
-    if: github.event.repository.name != 'OTTR_Template'
+    if: github.event.repository.name != 'C-MOOR_Template'
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
