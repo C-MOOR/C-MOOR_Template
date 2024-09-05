@@ -16,14 +16,14 @@ jobs:
     if: github.event.repository.name != 'C-MOOR_Template'
     steps:
       - name: checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Login as jhudsl-robot
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
           git config --global user.email "itcrtrainingnetwork@gmail.com"
           git config --global user.name "jhudsl-robot"
-          
+
 ##### Delete Template-specific files that aren't needed for new courses
 
       # Cleanup Template-specific bits
@@ -40,6 +40,9 @@ jobs:
             .github/workflows/starting-course.yml \
             .github/ISSUE_TEMPLATE/course-template-problem-report.md \
             .github/ISSUE_TEMPLATE/course-template-feature-request.md \
+            .github/ISSUE_TEMPLATE/new-course-add-to-sync.md \
+            .github/ISSUE_TEMPLATE/update-course-info-for-sync.md \
+            .github/PULL_REQUEST_TEMPLATE/add_to_sync_template.md \
             resources/code_output \
             resources/screenshots \
             resources/course_screenshots \
@@ -50,6 +53,8 @@ jobs:
             resources/images/04-figures_files \
             resources/chapt_screen_images \
             Course_Name.rds \
+            code_of_conduct.md \
+            CONTRIBUTING.md \
             docs/*.html \
             docs/*.md \
             manuscript/*

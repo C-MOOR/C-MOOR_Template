@@ -1,5 +1,5 @@
 
-[Follow the instructions here in ottrproject.org](https://www.ottrproject.org/writing_content.html) for details on how to start editing your OTTR course
+[Follow the instructions here in ottrproject.org](https://www.ottrproject.org/writing_content_courses.html) for details on how to start editing your OTTR course
 
 The following files need to be edited to get this new course started!
 
@@ -19,7 +19,7 @@ Your new repository will be set up with a CC-BY 4.0 License.  If you wish to use
 
 ### Files that need to be edited upon adding each new chapter (including upon creating a new course):
 
-- [ ] `_bookdown.yml` - The list of Rmd files that need to be rendered needs to be updated. See [instructions](https://www.ottrproject.org/examples.html#publishing-with-bookdown).
+- [ ] `_bookdown.yml` - The list of Rmd files that need to be rendered needs to be updated. See [instructions](https://www.ottrproject.org/course_publishing.html#publishing-with-bookdown).
 - [ ] `book.bib` - any citations need to be added. See [instructions](https://www.ottrproject.org/more_features.html#citing-sources).
 
 ### Files that need to be edited upon adding new packages that the book's code uses:
